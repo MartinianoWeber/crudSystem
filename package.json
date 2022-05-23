@@ -1,0 +1,41 @@
+{
+  "name": "crudsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinianoWeber/crudSystem.git"
+  },
+  "keywords": [
+    "crud",
+    "react",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "irbicn <irbicn.robles@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartinianoWeber/crudSystem/issues"
+  },
+  "homepage": "https://github.com/MartinianoWeber/crudSystem#readme",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
